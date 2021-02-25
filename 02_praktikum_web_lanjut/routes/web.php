@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Home;
 use App\Http\Controllers\Program;
 use App\Http\Controllers\ContactUs;
+use App\resources\views;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,43 +37,45 @@ use App\Http\Controllers\ContactUs;
 
 //PRAKTIKUM 3
 //nomor 1
-Route::get('/', [Home::class, 'home']);
+// Route::get('/', [Home::class, 'home']);
 
 //nomor 2
-Route::prefix('category')->group(function(){
-    Route::get('marbel-edu-games', function(){
-        echo 'Ini adalah halaman Marbel Edu Games';
-    });
-    Route::get('marbel-and-friends-kids-games', function(){
-        echo 'Ini adalah halaman Marbel and Friends Kids Games';
-    });
-    Route::get('riri-story-books', function(){
-        echo 'Ini adalah halaman Riri Story Books';
-    });
-    Route::get('kolak-kids-songs', function(){
-        echo 'Ini adalah halaman Kolak Kids Songs';
-    });
-});
+// Route::prefix('category')->group(function(){
+//     Route::get('marbel-edu-games', function(){
+//         echo 'Ini adalah halaman Marbel Edu Games';
+//     });
+//     Route::get('marbel-and-friends-kids-games', function(){
+//         echo 'Ini adalah halaman Marbel and Friends Kids Games';
+//     });
+//     Route::get('riri-story-books', function(){
+//         echo 'Ini adalah halaman Riri Story Books';
+//     });
+//     Route::get('kolak-kids-songs', function(){
+//         echo 'Ini adalah halaman Kolak Kids Songs';
+//     });
+// });
 
-//nomor 3
-Route::get('/news', function(){
-    echo 'Ini adalah halaman news';
-});
-Route::get('/news/{title}', function(Request $request, $title){
-    echo 'Ini adalah halaman news dengan judul '.$title;
-});
+// //nomor 3
+// Route::get('/news', function(){
+//     echo 'Ini adalah halaman news';
+// });
+// Route::get('/news/{title}', function(Request $request, $title){
+//     echo 'Ini adalah halaman news dengan judul '.$title;
+// });
 
 //nomor 4
-Route::prefix('program')->group(function(){
-    Route::get('/karir', [Program::class, 'karir']);
-    Route::get('/magang', [Program::class, 'magang']);
-    Route::get('/kunjungan-industri', [Program::class, 'kunjunganIndustri']);
-});
+// Route::prefix('program')->group(function(){
+//     Route::get('/karir', [Program::class, 'karir']);
+//     Route::get('/magang', [Program::class, 'magang']);
+//     Route::get('/kunjungan-industri', [Program::class, 'kunjunganIndustri']);
+// });
 
 //nomor 5
-Route::get('/about-us', function(){
-    echo '1941720221<br>Haarisah Yustika Putri<br>TI-2A';
-});
+// Route::get('/about-us', function(){
+//     echo '1941720221<br>Haarisah Yustika Putri<br>TI-2A';
+// });
 
 //nomor 6
-Route::get('/contact-us', [ContactUs::class, 'contact']);
+// Route::get('/contact-us', [ContactUs::class, 'contact']);
+
+Route::get('/', [views::class, 'index']);
