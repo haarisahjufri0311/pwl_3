@@ -36,7 +36,7 @@
 
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+        <div class="loader"><img src="assets/images/loading.gif" alt="#" /></div>
     </div>
      <!-- end loader -->
 
@@ -122,7 +122,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="text-img">
-                                    <figure><img src="images/bg.jpg" /></figure>
+                                    <figure><img src="assets/images/bg.jpg" /></figure>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="assets/images/discount.jpg" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +169,7 @@
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="assets/images/discount.jpg" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             <div class="img_bg">
-                                                <figure><img src="images/discount.jpg" /></figure>
+                                                <figure><img src="assets/images/discount.jpg" /></figure>
                                             </div>
                                         </div>
                                     </div>
@@ -214,21 +214,21 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margitop">
                             <div class="trending-box">
-                                <figure><img src="images/1.jpg" /></figure>
+                                <figure><img src="assets/images/1.jpg" /></figure>
                                 <h3>Outdoor</h3>
 
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="trending-box">
-                                <figure><img src="images/2.jpg" /></figure>
+                                <figure><img src="assets/images/2.jpg" /></figure>
                                 <h3>Living Room</h3>
 
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margitop">
                             <div class="trending-box">
-                                <figure><img src="images/3.jpg" /></figure>
+                                <figure><img src="assets/images/3.jpg" /></figure>
                                 <h3>Bedroom Lighting</h3>
 
                             </div>
@@ -257,28 +257,28 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="brand-box">
-                                <i><img src="icon/p1.png"/></i>
+                                <i><img src="assets/icon/p1.png"/></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="brand-box">
-                                <i><img src="icon/p2.png"/></i>
+                                <i><img src="assets/icon/p2.png"/></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="brand-box">
-                                <i><img src="icon/p3.png"/></i>
+                                <i><img src="assets/icon/p3.png"/></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="brand-box">
-                                <i><img src="icon/p4.png"/></i>
+                                <i><img src="assets/icon/p4.png"/></i>
                                 <h3>Jane Lauren Design Chair</h3>
                                 <span>$80.00</span>
                             </div>
@@ -338,7 +338,7 @@
                             <div class="row">
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
 
-                                    <img class="logo1" src="images/logo1.jpg" />
+                                    <img class="logo1" src="assets/images/logo1.jpg" />
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -438,7 +438,7 @@
           center: {lat: 40.645037, lng: -73.880224},
           });
 
-      var image = 'images/maps-and-flags.png';
+      var image = 'assets/images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
           position: {lat: 40.645037, lng: -73.880224},
           map: map,

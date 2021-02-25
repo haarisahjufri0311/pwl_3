@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Home;
 use App\Http\Controllers\Program;
 use App\Http\Controllers\ContactUs;
-use App\resources\views;
+use Illuminate\Support\Facades\views;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,4 +78,4 @@ use App\resources\views;
 //nomor 6
 // Route::get('/contact-us', [ContactUs::class, 'contact']);
 
-Route::get('/', [views::class, 'index']);
+Route::view('/','index' );
